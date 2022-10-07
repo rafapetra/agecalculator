@@ -10,6 +10,6 @@ describe('Calculator', () => {
 
   test('should correctly multiply the user age by .24', () => {
     const newUser = new Calculator(25,79);
-    expect(newUser.userAge.inMercury()).toEqual(6);
+    expect(newUser.inMercury()).toEqual(6);
   });
 });
