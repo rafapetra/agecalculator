@@ -7,4 +7,7 @@ export default class Calculator {
   inMercury = function() {
   return this.userAge * .24;
 }
+
+  inVenus = function() {
+}
 }

@@ -12,4 +12,9 @@ describe('Calculator', () => {
     const newUser = new Calculator(25,79);
     expect(newUser.inMercury()).toEqual(6);
   });
+
+  test('should correctly multiply the user age by .62', () => {
+    const newUser = new Calculator(25,79);
+    expect(newUser.inVenus()).toEqual(15.5);
+  });
 });
