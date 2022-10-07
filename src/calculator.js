@@ -4,7 +4,7 @@ export default class Calculator {
     this.userAgeExpectancy = expectedAge;
   }
 
-  checkType() {
-
+  inMercury() {
+    
   }
 }
