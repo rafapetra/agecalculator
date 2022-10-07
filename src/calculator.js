@@ -9,5 +9,6 @@ export default class Calculator {
 }
 
   inVenus = function() {
+    return this.userAge * .62;
 }
 }
