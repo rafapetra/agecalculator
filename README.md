@@ -2,7 +2,7 @@
 
 #### (Brief Description of Application)
 
-#### By (Your Name Here)
+#### By Rafael Petrachini
 
 ## Technologies Used
 
