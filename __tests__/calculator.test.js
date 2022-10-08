@@ -23,4 +23,8 @@ describe('Calculator', () => {
     expect(newUser.inMars()).toEqual(47);
   });
 
+  test('should correctly multiply the user age by 11.86', () => {
+    const newUser = new Calculator(25,79);
+    expect(newUser.inJupiter()).toEqual(296);
+  });
 });
