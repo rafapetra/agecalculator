@@ -15,6 +15,10 @@ export default class Calculator {
   inMars = function() {
   return this.userAge * 1.88;
 }
+
+  inJupiter = function() {
+  return this.userAge * 11.86;
+}
 }
 
 
