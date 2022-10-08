@@ -23,7 +23,8 @@ export default class Calculator {
 yearsLeft = function() {
   if ((this.userAge < this.userAgeExpectancy)) {
     return this.userAgeExpectancy - this.userAge;
-  } 
+  } else if ((this.userAge > this.userAgeExpectancy))
+    return this.userAge - this.userAgeExpectancy;
 }
 }
 
