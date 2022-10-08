@@ -19,6 +19,12 @@ export default class Calculator {
   inJupiter = function() {
   return this.userAge * 11.86;
 }
+
+yearsLeft = function() {
+  if ((this.userAge < this.userAgeExpectancy)) {
+    return this.userAgeExpectancy - this.userAge;
+  }
+}
 }
 
 
