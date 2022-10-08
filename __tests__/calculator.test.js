@@ -30,6 +30,6 @@ describe('Calculator', () => {
 
   test('should subtract the user age from the user age expectancy', () => {
     const newUser = new Calculator(25,79);
-    expect(newUser.inJupiter()).toEqual(54);
+    expect(newUser.yearsLeft()).toEqual(54);
   });
 });
