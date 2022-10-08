@@ -28,8 +28,13 @@ describe('Calculator', () => {
     expect(newUser.inJupiter()).toEqual(296.5);
   });
 
-  test('should subtract the user age from the user age expectancy if age is higher', () => {
+  test('should subtract the user age from the user age expectancy if age is lower', () => {
     const newUser = new Calculator(25,79);
     expect(newUser.yearsLeft()).toEqual(54);
+  });
+
+  test('should return the difference if age is higher than expectancy', () => {
+    const newUser = new Calculator(85,79);
+    expect(newUser.yearsLeft()).toEqual(6);
   });
 });
